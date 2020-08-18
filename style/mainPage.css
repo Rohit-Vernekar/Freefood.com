@@ -1,0 +1,142 @@
+html, body, div, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: 100;
+}
+body{
+	position: relative;
+	position: relative;
+	background: #ffffff;
+}
+nav{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	background: #ffffff;
+	box-shadow: 0px 2px 8px 0px #333;
+}
+.nav-container{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-container>.logo{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.nav li {
+  	display: inline-block;
+  	list-style: none;
+ 	height: 200px;
+  	line-height: 200px;
+ 	padding: 0 40px;
+   	text-transform: uppercase;
+    color: #333;
+	text-shadow: 1px 1px 1px #ccc;
+ 	font-style: bold;
+}
+
+.nav li:hover {
+  background: #cc0000;
+  transition: background 0.5s;
+}
+
+.nav-link {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 92px 17px;
+	/*transition: 0.3s;*/
+	color: black;
+  	text-decoration: none;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    height: 100%;
+    width: 100%;
+    animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#map {
+    height: 500px;
+    width: 100%;
+}
+#aboutUs {
+	background: #ffffff;
+  	font-style: italic;
+  	padding-bottom: 20px;
+}
+form#addFood{
+  width: 300px;
+  height: auto;
+  background: #cc0000;
+  border-radius: 5px;
+  border-bottom: 5px solid gray;
+  margin: 25px auto;
+  font-size: 16px;
+  color: white;
+}
+input.btn{
+  margin: 2px;
+  width: 70%;
+  height: 35px;
+  background: #fff;
+  font-size:16px;
+  font-weight: bold;
+  color: #cc0000;
+  outline: none;
+  border:0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input.btn:hover{
+  background: #ddd;
+}
+.tag{
+  font-size: 20px;
+  font-weight: bold;
+}
+.ans{
+  font-size: 20px;
+}
+#foodDesc{
+  width: 150px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  /*z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;*/
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+  color: white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+label.Mtag{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+}
